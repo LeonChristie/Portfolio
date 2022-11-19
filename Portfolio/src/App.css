@@ -1,41 +1,60 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@font-face {
+  font-family: MintSans;
+  src: url(/fonts/MINTSANS.otf);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
+body{
+  font-family: MintSans, sans-serif;
+  background: #767b91;
+  color: #f5e4d7;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.section{
+  background: #161616;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.logo{
+  filter: invert(98%) sepia(24%) saturate(729%) hue-rotate(301deg) brightness(99%) contrast(95%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.icon-link{
+  background: #f5e4d7;
+  color:#161616;
+  font-size: 25px;
+  border-radius: 5px;
+  padding: 3px;
 }
 
-.card {
-  padding: 2em;
+hr{
+border: 1px solid #5AFF15;
+margin: 0;
+width:95%;
+margin-right: auto;
+margin-left: auto;
 }
 
-.read-the-docs {
-  color: #888;
+.btn{
+  background:#f5e4d7;
+  color:#161616;
+  border: #767b91;
+  font-size: 20px;
+}
+.btn:hover{
+  background: #5AFF15;
+  color: #161616;
+
+}
+
+.card-body{
+  background: #161616;
+  border: 0;
+}
+
+.photo{
+  border-radius: 100px;
+}
+
+.project-link{
+border: 2px solid #5AFF15;
+padding: 5px;
 }
